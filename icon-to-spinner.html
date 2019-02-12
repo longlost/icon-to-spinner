@@ -1,0 +1,44 @@
+
+<style>
+
+  :host {
+    --spinner-color: var(--app-primary-color);
+  }
+
+  paper-spinner-lite {
+    position: absolute;
+    left:     14px;
+    --paper-spinner-color: var(--spinner-color);
+  }
+
+  .hide-spinner {
+    transition: opacity 0.2s ease-in;
+    opacity:    0;
+  }
+
+  iron-icon {
+    display:   inline-block;
+    min-width: 24px;
+    height:    24px;
+  }
+
+  .icon {
+    transition: opacity 0.2s;
+    opacity:    1;
+  }
+
+  .icon-to-spinner {
+    transition: transform 0.2s ease-in, opacity 0.1s ease-in 0.1s;
+    transform:  scale(1.5, 1.5);
+    opacity:    0;
+  }
+
+</style>
+
+
+<paper-spinner-lite id="spinner"></paper-spinner-lite>
+
+<iron-icon id="icon" 
+           class="icon" 
+           icon="[[__computeIcon(icon)]]">
+</iron-icon>
