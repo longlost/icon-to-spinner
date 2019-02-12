@@ -35,6 +35,14 @@
     "@polymer/iron-meta" "^3.0.0-pre.26"
     "@polymer/polymer" "^3.0.0"
 
+"@polymer/iron-iconset-svg@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.1.tgz#568d6e7dbc120299dae63be3600aeba0d30ddbea"
+  integrity sha512-XNwURbNHRw6u2fJe05O5fMYye6GSgDlDqCO+q6K1zAnKIrpgZwf2vTkBd5uCcZwsN0FyCB3mvNZx4jkh85dRDw==
+  dependencies:
+    "@polymer/iron-meta" "^3.0.0-pre.26"
+    "@polymer/polymer" "^3.0.0"
+
 "@polymer/iron-location@^3.0.0-pre.25":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@polymer/iron-location/-/iron-location-3.0.1.tgz#43a59fced248ea71db5833116fcdefa186b79527"
@@ -93,6 +101,13 @@
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/@polymer/test-fixture/-/test-fixture-4.0.2.tgz#2f4777ecdcfb22ee000db35a05e0edf27c722c19"
   integrity sha512-tLX8tFE4mkc4p84YG5239G0hbgTVv2irZYrSyO0OblUqIRbRoCPmbydm3HRFQkJeAB3rPCtyeZ2roJULsmTG3A==
+
+"@spriteful/app-icons@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@spriteful/app-icons/-/app-icons-1.0.0.tgz#442a9a152f0e79f3329d5514f99553affca1d713"
+  integrity sha512-QjMZAUKTxK3d4C3XqRfPTeXnDXVKbUFPvLY5C6jsA6dHMMd1rtT0dEf+8BwMkUOrX/o0BUwR3/EtmH7i1JVuOw==
+  dependencies:
+    "@polymer/iron-iconset-svg" "^3.0.1"
 
 "@spriteful/lambda@^1.3.3":
   version "1.3.3"
