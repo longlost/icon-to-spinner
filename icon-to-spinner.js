@@ -2,7 +2,7 @@
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
 import {wait}                 from '@spriteful/utils/utils.js';
 import htmlString             from './icon-to-spinner.html';
-import '@spriteful/app-icons.js';
+import '@spriteful/app-icons/app-icons.js';
 import '@polymer/paper-spinner/paper-spinner-lite.js';
 import '@polymer/iron-icon/iron-icon.js';
 
