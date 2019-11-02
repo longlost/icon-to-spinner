@@ -1,5 +1,5 @@
 {
-  "name": "@spriteful/icon-to-spinner",
+  "name": "@longlost/icon-to-spinner",
   "version": "1.0.2",
   "description": "small custom element that accepts a md style icon and animates it out in leu of a paper-spinner",
   "main": "icon-to-spinner.js",
@@ -8,27 +8,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/spriteful/icon-to-spinner.git"
+    "url": "git+https://github.com/longlost/icon-to-spinner.git"
   },
-  "author": "Spriteful spritefuldev@gmail.com",
+  "author": "Longlost Dev longlostdev@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/spriteful/icon-to-spinner/issues"
+    "url": "https://github.com/longlost/icon-to-spinner/issues"
   },
-  "homepage": "https://github.com/spriteful/icon-to-spinner#readme",
+  "homepage": "https://github.com/longlost/icon-to-spinner#readme",
   "dependencies": {
+    "@longlost/app-icons": "^1.0.0",
+    "@longlost/utils": "^1.1.6",
     "@polymer/iron-icon": "^3.0.1",
-    "@polymer/paper-spinner": "^3.0.1",
-    "@polymer/polymer": "^3.1.0",
-    "@spriteful/app-icons": "^1.0.0",
-    "@spriteful/utils": "^1.1.6"
+    "@polymer/paper-spinner": "^3.0.2",
+    "@polymer/polymer": "^3.3.0"
   },
   "devDependencies": {
-    "@polymer/iron-demo-helpers": "^3.0.2",
+    "@polymer/iron-demo-helpers": "^3.1.0",
     "@polymer/test-fixture": "^4.0.2",
-    "@webcomponents/webcomponentsjs": "^2.2.7",
+    "@webcomponents/webcomponentsjs": "^2.3.0",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0",
-    "wct-mocha": "^1.0.0"
+    "mocha": "^6.2.2",
+    "wct-mocha": "^1.0.1"
   }
 }

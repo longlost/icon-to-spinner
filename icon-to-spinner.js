@@ -1,13 +1,13 @@
 
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
-import {wait}                 from '@spriteful/utils/utils.js';
+import {wait}                 from '@longlost/utils/utils.js';
 import htmlString             from './icon-to-spinner.html';
-import '@spriteful/app-icons/app-icons.js';
+import '@longlost/app-icons/app-icons.js';
 import '@polymer/paper-spinner/paper-spinner-lite.js';
 import '@polymer/iron-icon/iron-icon.js';
 
 
-class SpritefulIconToSpinner extends PolymerElement {
+class IconToSpinner extends PolymerElement {
   static get is() { return 'icon-to-spinner'; }
 
   static get template() {
@@ -46,4 +46,4 @@ class SpritefulIconToSpinner extends PolymerElement {
   
 }
 
-window.customElements.define(SpritefulIconToSpinner.is, SpritefulIconToSpinner);
+window.customElements.define(IconToSpinner.is, IconToSpinner);
