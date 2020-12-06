@@ -1,8 +1,7 @@
 
 import {PolymerElement, html} from '@polymer/polymer/polymer-element.js';
-import {wait}                 from '@longlost/utils/utils.js';
+import {wait}                 from '@longlost/app-core/utils.js';
 import htmlString             from './icon-to-spinner.html';
-import '@longlost/app-icons/app-icons.js';
 import '@polymer/paper-spinner/paper-spinner-lite.js';
 import '@polymer/iron-icon/iron-icon.js';
 
@@ -21,11 +20,6 @@ class IconToSpinner extends PolymerElement {
       icon: String
 
     };
-  }
-
-
-  __computeIcon(str) {
-    return `app-icons:${str}`;
   }
 
 
