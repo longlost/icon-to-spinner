@@ -1,6 +1,6 @@
 {
   "name": "@longlost/icon-to-spinner",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "small custom element that accepts a md style icon and animates it out in leu of a paper-spinner",
   "main": "icon-to-spinner.js",
   "scripts": {
